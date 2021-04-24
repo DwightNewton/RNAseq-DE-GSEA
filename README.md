@@ -23,3 +23,6 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * GO-terms representing many biological functions relevant to cell biology and psychiatric disorders were used as parent-terms.
    * Any significantly enriched GO-term in any contrast that (1) was one of the parent terms or (2) was a child-term of that parent was categorized as enriched for that function.
 
+5. EnrichmentMap Visualization of GSEA results.
+
+6. Leading-edge analysis of parent-child and EnrichmentMap analyses.
