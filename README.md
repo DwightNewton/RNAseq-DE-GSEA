@@ -3,6 +3,7 @@ This repository will cover many differential expression (DE) based downstream an
 
 
 1. For datasets with detailed clinical/demographic data, explore contribution of relevant covariates.
-   * In this post-mortem RNAseq dataset, RNA/tissue quality measures, age, sex, and cause of death (suicide vs non-suicide) are of partiular interest.
+   * `Covariate analysis.R`
+   * In this post-mortem RNAseq dataset, RNA/tissue quality measures (pH, PMI, RIN), age, sex, and cause of death (suicide vs non-suicide) are of partiular interest.
    * If medication status and co-morbid disorders were more strongly represented, these would be additional candidates.
-   * 
+   * Main outputs are: plots of % gene variance explained for each covariate, lists of top *n* genes explained by covariates of interest, correlation matrices and clustering of covariates by co-correlation
