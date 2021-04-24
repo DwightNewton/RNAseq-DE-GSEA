@@ -16,4 +16,10 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * `Cell-type heatmaps and venns.R`: Extracts venn digrams of detected genes across cell-types and heatmaps of gene expression across cell-types (all genes and those at *n*% FDR).
    * `Contrast lists and FPKM table.R`: Exports FPKM (counts normalized for sequencing depth and gene length) matrix, and DE genelists showing fold-change and q-value for MDD-Control, BPD-Control, and SCZ-Control contrasts in each cell-type.
 
-3. 
+3. GSEA to determine biological pathways altered in each cell-type.
+
+4. Parent-child analysis of GSEA results.
+   * Gene Ontology (GO) has a heirarchal structure, allowing for analysis of parent (i.e. higher-up) and child (i.e. lower-down) relationships.
+   * GO-terms representing many biological functions relevant to cell biology and psychiatric disorders were used as parent-terms.
+   * Any significantly enriched GO-term in any contrast that (1) was one of the parent terms or (2) was a child-term of that parent was categorized as enriched for that function.
+
