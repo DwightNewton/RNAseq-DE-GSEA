@@ -1,7 +1,7 @@
 # RNAseq-DE-GSEA
 This repository will cover many differential expression (DE) based downstream analyses of RNAseq data. DESeq2 was used for differential expression analysis, gene-set enrichment analysis (GSEA) for pathway enrichemnt, and a combination of parent-child and network-based visualizations were used to interpret the results. Network-based visualizations require Cytoscape to visualize output.
 
-These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-dissected populations of L2/3 Pyrmaidal, L5/6 Pyramidal, SST-neurons, PV-neurons, and VIP-neurons were collected (130 cells/sample) and sequenced on the NovaSeq platform. Cells were dissected from the subgenual anterior cingulate cortex, from a post-mortem cohort containing 19 matched tetrads of major depressive disorder (MDD), bipolar disorder (BPD), schizophrenia (SCZ), and control subjects.
+These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-dissected populations of L2/3 Pyramidal, L5/6 Pyramidal, SST-neurons, PV-neurons, and VIP-neurons were collected (130 cells/sample) and sequenced on the NovaSeq platform. Cells were dissected from the subgenual anterior cingulate cortex, from a post-mortem cohort containing 19 matched tetrads of major depressive disorder (MDD), bipolar disorder (BPD), schizophrenia (SCZ), and control subjects.
 
 1. For datasets with detailed clinical/demographic data, explore contribution of relevant covariates.
    * `Covariate analysis.R`
