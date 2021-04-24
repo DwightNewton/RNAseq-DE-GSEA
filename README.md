@@ -1,2 +1,2 @@
 # RNAseq-DE-GSEA
-Pre-analytical and analytical scripts for differential expression and enrichment analysis of RNAseq data
+This repository will cover many differential expression (DE) based downstream analyses of RNAseq data. DESeq2 was used for differential expression analysis, gene-set enrichment analysis (GSEA) for pathway enrichemnt, and a combination of parent-child and network-based visualizations were used to interpret the results. Network-based visualizations require Cytoscape to visualize output.
