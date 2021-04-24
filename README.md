@@ -11,7 +11,8 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
 
 2. Perform DE analysis with DESeq2
    * `Differential expression.R`
-   * DE script can be seperated by cell-type and parallelized to save time, though this typically doesn't run overly long (~1-2 hours on CAMH cluster)
-   * Saves results files as .rData files in DESeq2 format, gives most flexibility for downstream uses
+   * DE script can be seperated by cell-type and parallelized to save time, though this typically doesn't run overly long (~1-2 hours on CAMH cluster).
+   * Saves results files as .rData files in DESeq2 format, gives most flexibility for downstream uses.
+   * Run `Cell-type heatmaps and venns.R` : Extracts venn digrams of detected genes across cell-types and heatmaps of gene expression across cell-types (all genes and those at *n*% FDR).
 
 3. 
