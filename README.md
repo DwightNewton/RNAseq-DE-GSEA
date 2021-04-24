@@ -7,4 +7,11 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * `Covariate analysis.R`
    * In this post-mortem RNAseq dataset, RNA/tissue quality measures (pH, PMI, RIN), age, sex, and cause of death (suicide vs non-suicide) are of partiular interest.
    * If medication status and co-morbid disorders were more strongly represented, these would be additional candidates.
-   * Main outputs are: plots of % gene variance explained for each covariate, lists of top *n* genes explained by covariates of interest, correlation matrices and clustering of covariates by co-correlation
+   * Outputs: plots of % gene variance explained for each covariate, lists of top *n* genes explained by covariates of interest, correlation matrices and clustering of covariates by co-correlation
+
+2. Perform DE analysis with DESeq2
+   * `Differential expression.R`
+   * DE script can be seperated by cell-type and parallelized to save time, though this typically doesn't run overly long (~1-2 hours on CAMH cluster)
+   * Saves results files as .rData files in DESeq2 format, gives most flexibility for downstream uses
+
+3. 
