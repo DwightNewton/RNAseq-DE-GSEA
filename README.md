@@ -14,6 +14,6 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * DE script can be seperated by cell-type and parallelized to save time, though this typically doesn't run overly long (~1-2 hours on CAMH cluster).
    * Saves results files as .rData files in DESeq2 format, gives most flexibility for downstream uses.
    * Run `Cell-type heatmaps and venns.R`: Extracts venn digrams of detected genes across cell-types and heatmaps of gene expression across cell-types (all genes and those at *n*% FDR).
-   * Run `Contrast lists and FPKM table.R`: Exports FPKM (counts normalized for sequencing depth and gene length) matrix, and DE genelists showing fold-change and q-value for MDD-Control
+   * Run `Contrast lists and FPKM table.R`: Exports FPKM (counts normalized for sequencing depth and gene length) matrix, and DE genelists showing fold-change and q-value for MDD-Control, BPD-Control, and SCZ-Control contrasts in each cell-type.
 
 3. 
