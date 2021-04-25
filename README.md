@@ -28,6 +28,7 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * Heatmaps visualizing the results, and overlaps across constrasts, are generated.
 
 5. EnrichmentMap Visualization of GSEA results.
-   * `EnrichmentMap output script.R` 
+   * `EnrichmentMap output script.R` is a handy script that generates "traditional" GSEA-style output files that are compatible with EnrichmentMap (Cytoscape plugin).
+   * `Cytoscape import commands.txt.` imports these networks into Cytoscape using the Cytoscape command language since the GUI-based import functions can crash with large files.
 
 6. Leading-edge analysis of parent-child and EnrichmentMap analyses.
