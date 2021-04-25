@@ -32,3 +32,6 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * `Cytoscape import commands.txt.` imports these networks into Cytoscape using the Cytoscape command language since the GUI-based import functions can crash with large files.
 
 6. Leading-edge analysis of parent-child and EnrichmentMap analyses.
+   * `Leading-edge analyses.R` performs important downstream analyses which identify key genes of interest.
+   * For a given Cytoscape cluster or Parent-Child function of interest, GSEA leading-edge genes (genes which drove enrichment of the function) are identified which overlap across a majority of pathway hits in that cluster/function.
+   * Also generates histograms showing the most overlapping leading-edge genes in each cluster/function.
