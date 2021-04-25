@@ -19,7 +19,6 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
 3. GSEA to determine biological pathways altered in each cell-type.
    * `Within-disorder GSEA.R` - performs GSEA for each contrast and cell-type.
    * A .gmt file is required, containing the universe of gene-sets/pathways you wish to query against. A good resource is: http://baderlab.org/GeneSets.
-   * 
 
 4. Parent-child analysis of GSEA results.
    * `Parent-child analysis and visualization.R` generates many outputs: tables summarizing # of GSEA hits at different significant thresholds across GSEA settings, cell-types, and contrasts. It also performs a parent-child analysis examining the degree of enrichment in biological functions of interest leveraging the Gene Ontology strucutre.
@@ -29,5 +28,6 @@ These analyses were conducted on the Sibille Lab "PITT Tetrad" dataset. Laser-di
    * Heatmaps visualizing the results, and overlaps across constrasts, are generated.
 
 5. EnrichmentMap Visualization of GSEA results.
+   * `EnrichmentMap output script.R` 
 
 6. Leading-edge analysis of parent-child and EnrichmentMap analyses.
